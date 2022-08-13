@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             })
     }
     
-    // Center Animation
+    // Pulse Animation
     func pulseAnimation(){
             
         let pulseAnimation = CABasicAnimation(keyPath: "opacity")
