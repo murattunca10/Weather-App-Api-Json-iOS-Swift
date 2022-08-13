@@ -74,6 +74,11 @@ class ViewController: UIViewController {
 
     @IBAction func getButton(_ sender: Any) {
         
+        // Haptic Feedback
+        
+        let generator = UIImpactFeedbackGenerator(style: .medium)
+                    generator.impactOccurred()
+        
         clickedAnimation() // -> Clicked Animaton
         pulseAnimation() // -> Pulse Animation
         api() // API & JSON call function
