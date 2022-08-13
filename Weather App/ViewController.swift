@@ -104,7 +104,7 @@ class ViewController: UIViewController {
             lon = (textfield2?.text)!
             
             pulseAnimation() // -> Pulse Animation
-            api() // API & JSON call function
+            api() // API & JSON call function 
         }
         
         locationAlert.addAction(showButton)
